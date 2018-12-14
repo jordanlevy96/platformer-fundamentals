@@ -21,7 +21,8 @@ add_executable(${CMAKE_PROJECT_NAME} ${SOURCES} ${HEADERS} ${GLSL})
 # Add GLFW
 # Get the GLFW environment variable.
 # There should be a CMakeLists.txt in the specified directory.
-set(GLFW_DIR "/Users/Jordan/School/Fall 2018/471/OpenGL_MAC/glfw-mojave-fixes")
+#set(GLFW_DIR "/Users/Jordan/School/Fall 2018/471/OpenGL_MAC/glfw-mojave-fixes")
+set(GLFW_DIR "${GLFW_DIR}")
 if(GLFW_DIR)
   message(STATUS "GLFW environment variable found")
 
@@ -58,7 +59,8 @@ endif()
 # Add GLM
 # Get the GLM environment variable. Since GLM is a header-only library, we
 # just need to add it to the include directory.
-set(GLM_INCLUDE_DIR "/Users/Jordan/School/Fall 2018/471/OpenGL_MAC/glm-0.9.8.3")
+#set(GLM_INCLUDE_DIR "/Users/Jordan/School/Fall 2018/471/OpenGL_MAC/glm-0.9.8.3")
+set(GLM_INCLUDE_DIR "${GLM_INCLUDE_DIR}")
 if(GLM_INCLUDE_DIR)
   include_directories(${GLM_INCLUDE_DIR})
   message(STATUS "GLM environment variable found")

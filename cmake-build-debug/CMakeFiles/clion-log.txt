@@ -1,8 +1,13 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/Jordan/School/Fall 2018/471/Final"
--- GLFW environment variable found
--- Could NOT find Vulkan (missing: VULKAN_LIBRARY VULKAN_INCLUDE_DIR) 
--- Using Cocoa for window creation
--- GLM environment variable found
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/Jordan/School/Fall 2018/471/Final/cmake-build-debug
+-- GLFW environment variable `GLFW_DIR` not found, GLFW3 must be installed with the system
+-- PkgConfig found
+-- Checking for one of the modules 'glfw3'
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindPkgConfig.cmake:659 (message):
+  None of the required 'glfw3' found
+Call Stack (most recent call first):
+  CMakeLists.txt:46 (pkg_search_module)
+
+
+-- GLM environment variable `GLM_INCLUDE_DIR` not found, GLM must be installed with the system
+-- Configuring incomplete, errors occurred!
+See also "/Users/Jordan/School/Fall 2018/471/Final/cmake-build-debug/CMakeFiles/CMakeOutput.log".
