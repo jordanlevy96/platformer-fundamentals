@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+1ae809c320a6385541c55411fa159ac2 /Users/Jordan/School/Fall 2018/471/OpenGL_MAC/glfw-mojave-fixes/debug/CMakeFiles/uninstall

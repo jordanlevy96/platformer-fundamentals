@@ -1,0 +1,8 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/Jordan/School/Fall 2018/471/Final"
+-- GLFW environment variable found
+-- Could NOT find Vulkan (missing: VULKAN_LIBRARY VULKAN_INCLUDE_DIR) 
+-- Using Cocoa for window creation
+-- GLM environment variable found
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/Jordan/School/Fall 2018/471/Final/cmake-build-debug
